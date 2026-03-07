@@ -4,6 +4,12 @@ class Link {
     private $linkImg;
     private $info;
 
+    public function __construct($link,$inf)
+    {
+        $this->linkImg = $link;
+        $this->info =$inf;
+    }
+    
     /**
      * Get the value of linkImg
      */
